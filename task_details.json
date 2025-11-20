@@ -1,0 +1,15 @@
+{
+    "Headphones_eeg.json": {
+        "TaskDescription": "Subjects sat still with eyes open and listened to click train stimulation of the ASSR protocol at 40 Hz in headphones.",
+        "Instructions": "The subject was asked to be relaxed, not move, keep their eyes open, watch the fixation cross, and passively listen to a series of auditory clicks."
+    },
+    "SpeakersArtifact_eeg.json": {
+        "TaskDescription": "Subjects sat still with eyes open and listened to click train stimulation of the ASSR protocol at 40 Hz on speakers.",
+        "Instructions": "The subject was asked to be relaxed, not move, keep their eyes open, watch the fixation cross, and passively listen to a series of auditory clicks."
+    },
+    "Speakers_eeg.json": {
+        "TaskDescription": "Subjects sat with their eyes open, listened to click train stimulation of the ASSR protocol at 40 Hz on speakers, and randomly produced a muscle artifact.",
+        "Instructions": "The subject was asked to keep their eyes open, watch the fixation cross, randomly (without thinking) clench their jaw, frown, or both, and passively listen to a series of auditory clicks."
+    }
+}
+
