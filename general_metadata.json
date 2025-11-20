@@ -1,0 +1,19 @@
+{
+    "EEGReference": "Cz",
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 2,
+    "EOGChannelCount": 0,
+    "MISCChannelCount": 0,
+    "TriggerChannelCount": 0,
+    "EEGGround": "COM",
+    "EEGPlacementScheme": "GSN-HydroCel-257",
+    "SubjectArtefactDescription": "Stimulus transduction artifact, muscle artifact, eye artifact, cardiac artifact, line noise, bad electrode",
+    "Manufacturer": "Electrical Geodesics Inc. (EGI)",
+    "ManufacturersModelName": "MagStim EGI NetAmp GES 400 HdEEG",
+    "SoftwareVersions": "Net Station 5.4.2",
+    "DeviceSerialNumber": "2014-0131",
+    "InstitutionName": "National Institute of Mental Health, Klecany",
+    "InstitutionAddress": "Topolova 748, Klecany, 250 67, Czech Republic",
+    "InstitutionalDepartmentName": "Clinical Research Program"
+}
+
