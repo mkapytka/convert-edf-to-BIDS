@@ -17,10 +17,12 @@ project/
 ```
 
 ## Dependencies
-python=3.10.12
+```
+Python 3.10.12
 mne==1.9.0
 mne-bids==0.16.0
 pandas==2.2.3
+```
 
 ## Files Overview
 
