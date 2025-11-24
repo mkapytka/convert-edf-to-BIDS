@@ -40,7 +40,7 @@ Contains two sections:
 * `eeg_general:` metadata added to all *_eeg.json sidecar files
 
 Example:
-
+```
 {
     "dataset": {
         "Name": "Stimulus_artifact_ASSR",
@@ -63,7 +63,7 @@ Example:
         "InstitutionName": "National Institute of Mental Health, Klecany"
     }
 }
-
+```
 
 **3. task_details.json**
 
