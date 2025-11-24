@@ -95,7 +95,7 @@ def main():
     # -------- Load metadata from external JSON files --------
     metadata = load_metadata(op.join(data_dir, "general_metadata.json"))
     dataset_meta = metadata["dataset"]
-	general_meta = metadata["eeg_general"]
+    general_metadata = metadata["eeg_general"]
     task_details = load_metadata(op.join(data_dir, "task_details.json"))
 
     # -------- Load participant mapping CSV --------
