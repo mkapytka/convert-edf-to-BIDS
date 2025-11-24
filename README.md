@@ -129,7 +129,8 @@ The script generates:
 	* sub-xxx_task-yyy_eeg.json (auto-updated)
 	* sub-xxx_task-yyy_channels.tsv
 	* sub-xxx_task-yyy_electrodes.tsv (if applicable)
-
+    
+---
 
 The script uses MNE-BIDS and a module of MNE-BIDS dedicated to EEG:
 
