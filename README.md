@@ -16,6 +16,12 @@ project/
 └── BIDS/                        # BIDS dataset output (auto-generated)
 ```
 
+## Dependencies
+python=3.10.12
+mne==1.9.0
+mne-bids==0.16.0
+pandas==2.2.3
+
 ## Files Overview
 
 **1. info.csv**
@@ -71,7 +77,7 @@ Example:
 
 Holds task-specific descriptions and instructions, matched by filename ending:
 
-``` ňňňňňǩǩǩ
+``` 
 {
     "Headphones_eeg.json": {
         "TaskDescription": "Subjects sat still ... headphones.",
