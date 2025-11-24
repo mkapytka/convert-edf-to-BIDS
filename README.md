@@ -5,6 +5,7 @@ All dataset-level, subject-level, and task-specific metadata are stored in exter
 
 ## Project Structure
 
+```
 project/
 │
 ├── info.csv                     # Participant-to-file mapping table
@@ -13,6 +14,7 @@ project/
 ├── convert_to_bids.py           # Main conversion script
 ├── EDF/                         # (Optional) folder containing EDF files
 └── BIDS/                        # BIDS dataset output (auto-generated)
+```
 
 ## Files Overview
 
