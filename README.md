@@ -1,7 +1,7 @@
 # BIDS Conversion Pipeline
 
-This repository contains a complete and modular workflow for converting EEG EDF recordings into a fully structured BIDS dataset.
-All dataset-level, subject-level, and task-specific metadata are stored in external JSON configuration files, allowing easy editing and reproducibility.
+This repository contains a workflow for converting EEG EDF recordings into a BIDS dataset.
+All dataset-level, subject-level, and task-specific metadata are stored in external JSON and CSV configuration files.
 
 ## Project Structure
 
@@ -12,7 +12,7 @@ project/
 ├── metadata.json                # Combined dataset + EEG general metadata
 ├── task_details.json            # Task-specific metadata (description, instructions)
 ├── convert_to_bids.py           # Main conversion script
-├── EDF/                         # (Optional) folder containing EDF files
+├── *.edf                        # EDF files
 └── BIDS/                        # BIDS dataset output (auto-generated)
 ```
 
@@ -130,7 +130,9 @@ The script generates:
 	* sub-xxx_task-yyy_channels.tsv
 	* sub-xxx_task-yyy_electrodes.tsv (if applicable)
 
-All metadata is consistently injected and validated through JSON merging.
 
+The script uses MNE-BIDS and a module of MNE-BIDS dedicated to EEG:
 
+Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A., & Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software, 4:1896. DOI: 10.21105/joss.01896
 
+Pernet, C.R., Appelhoff, S., Gorgolewski, K.J. et al. EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Sci Data 6, 103 (2019). https://doi.org/10.1038/s41597-019-0104-8
