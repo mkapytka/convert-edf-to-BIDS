@@ -1,5 +1,7 @@
 # BIDS Conversion Pipeline
 
+[![DOI](https://zenodo.org/badge/1100653687.svg)](https://doi.org/10.5281/zenodo.17698692)
+
 This repository contains a workflow for converting EEG EDF recordings into a BIDS dataset.
 All dataset-level, subject-level, and task-specific metadata are stored in external JSON and CSV configuration files.
 
